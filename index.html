@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GTG Perfumes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <!-- Left: Logo -->
+      <div class="logo">GTG</div>
+
+      <!-- Center: Navigation -->
+      <nav class="nav" id="navMenu">
+        <ul>
+          <li><a href="#">Home</a></li>
+
+          <li class="dropdown">
+            <a href="#" id="shopToggle">Shop ▾</a>
+            <ul class="dropdown-menu" id="shopMenu">
+              <li><a href="#">All Products</a></li>
+              <li><a href="#">Men</a></li>
+              <li><a href="#">Women</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#">Fragrances</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Right: Actions -->
+      <div class="actions">
+        <span class="search-icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </span>
+
+        <a href="#" class="shop-btn">Shop Now</a>
+        <div class="hamburger" id="hamburger">☰</div>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <span class="badge">
+          <i class="fa-solid fa-award"></i>
+          Awarded the best perfume in the world
+        </span>
+
+        <h1>Live your best life.</h1>
+
+        <div class="stats">
+          <div class="stat-item">
+            <div class="stat">10x</div>
+            <p>power</p>
+          </div>
+          <div class="stat-item">
+            <div class="stat">9</div>
+            <p>ingredients</p>
+          </div>
+          <div class="stat-item">
+            <div class="stat">20K+</div>
+            <p>happy customers</p>
+          </div>
+        </div>
+
+        <a href="#" class="hero-btn">Shop Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="product-section">
+    <div class="product-wrap">
+      <!-- LEFT: Gallery -->
+      <div class="gallery">
+        <div class="main-img">
+          <button class="nav prev">
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+          <img id="currentImg" src="/assets/Perfumes.png" alt="" />
+          <button class="nav next">
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <div class="dots" id="dots"></div>
+
+        <div class="thumbs" id="thumbs">
+          <img src="/assets/leftPerfumes1.png" class="active" />
+          <img src="/assets/leftPerfumes2.png" />
+          <img src="/assets/leftPerfumes3.png" />
+          <img src="/assets/leftPerfumes4.png" />
+          <img src="/assets/leftPerfumes1.png" />
+          <img src="/assets/leftPerfumes2.png" />
+          <img src="/assets/leftPerfumes3.png" />
+          <img src="/assets/leftPerfumes4.png" />
+        </div>
+      </div>
+
+      <!-- RIGHT: Details -->
+      <div class="details">
+        <h2>GTG Perfumes</h2>
+        <div class="rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-duotone fa-solid fa-star-half"></i>
+          <span>4.7 (999+ reviews)</span>
+        </div>
+        <p>
+          Experience the timeless allure backed by modern artistry, captured
+          in every bottle of our fragrance. Crafted for those who seek to
+          elevate their essence with purpose and sophistication.
+        </p>
+
+        <!-- Subscription Options -->
+        <div class="popular-box">
+
+          <div class="popular-title">Most Popular</div>
+
+          <!-- Single -->
+          <div class="single-subscription">
+
+
+
+            <label class="sub-option">
+              <div class="sub-option-title">
+                <input type="radio" name="subType" value="single" checked>
+                <span class="custom-radio"></span>
+                <span class="title">Single Subscription</span>
+              </div>
+              <span class="price"><strong>$99.99</strong><span>$146</span></span>
+            </label>
+<hr>
+            <div class="sub-content" id="singleSub">
+              <h4 class="frag-title">Choose a Fragrance</h4>
+
+              <div class="frag-grid">
+
+                <!-- Original -->
+                <label class="frag-card best">
+                  <span class="best-badge">BEST-SELLER</span>
+                  <div class="frag-head">
+                    <input type="radio" name="singleFrag" value="original" checked>
+                    <span class="frag-name">Original</span>
+                  </div>
+
+                  <img src="/assets/Original.png" alt="Original">
+                </label>
+
+                <!-- Lily -->
+                <label class="frag-card">
+                  <div class="frag-head">
+                    <input type="radio" name="singleFrag" value="lily">
+                    <span class="frag-name">Lily</span>
+                  </div>
+                  <img src="/assets/Lily.png" alt="Lily">
+                </label>
+
+                <!-- Rose -->
+                <label class="frag-card">
+                  <div class="frag-head">
+                    <input type="radio" name="singleFrag" value="rose">
+                    <span class="frag-name">Rose</span>
+                  </div>
+                  <img src="/assets/Rose.png" alt="Rose">
+                </label>
+
+              </div>
+
+
+
+              <h4>What’s Included:</h4>
+              <div class="include-box">
+                <div>Every 30 Days</div>
+                <div>One Time <b>(Free)</b></div>
+              </div>
+
+              <ul class="points">
+                <li>1 Bottle Shipped Monthly</li>
+                <li>Free Sampler for Original, Lily & Rose</li>
+                <li><b>50% OFF Shipping</b></li>
+                <li>Pause or Cancel Anytime After 3 Months</li>
+                <li>28 Day Money Back Guarantee</li>
+              </ul>
+            </div>
+          </div>
+          <!-- Double -->
+          <div class="double-subscription">
+            <label class="sub-option">
+              <input type="radio" name="subType" value="double">
+              <span>Double Subscription</span>
+              <strong>$169.99</strong>
+            </label>
+
+            <div class="sub-content hidden" id="doubleSub">
+              <h4>Choose Fragrance 1</h4>
+              <div class="frag-grid">
+                <label><input type="radio" name="doubleFrag1" checked> Original</label>
+                <label><input type="radio" name="doubleFrag1"> Lily</label>
+                <label><input type="radio" name="doubleFrag1"> Rose</label>
+              </div>
+
+              <h4>Choose Fragrance 2</h4>
+              <div class="frag-grid">
+                <label><input type="radio" name="doubleFrag2" checked> Original</label>
+                <label><input type="radio" name="doubleFrag2"> Lily</label>
+                <label><input type="radio" name="doubleFrag2"> Rose</label>
+              </div>
+
+              <h4>What’s Included:</h4>
+              <div class="include-box">
+                <div>Every 30 Days</div>
+                <div>One Time <b>(Free)</b></div>
+              </div>
+
+              <ul class="points">
+                <li>2 Bottles Shipped Monthly</li>
+                <li>Free Sampler for All Fragrances</li>
+                <li><b>50% OFF Shipping</b></li>
+                <li>Pause or Cancel Anytime After 3 Months</li>
+                <li>28 Day Money Back Guarantee</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+        <script src="/js/script.js"></script>
+</body>
+
+</html>
