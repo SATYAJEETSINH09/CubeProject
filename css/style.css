@@ -541,7 +541,7 @@ text-align: justify;
   border-radius: 8px;
   font-weight: 600;
 }
-.single-subscription{
+.single-subscription , .double-subscription{
   padding: 20px;
 }
 
@@ -769,7 +769,24 @@ color: #032E15;
   flex-shrink: 0;
   margin-top: 2px;
 }
-
+.details-btn{
+opacity: 1;
+border-radius: 505.64px;
+border-bottom-width: 1.01px;
+padding-top: 12.14px;
+padding-right: 24.27px;
+padding-bottom: 12.14px;
+padding-left: 24.27px;
+background: linear-gradient(180deg, #032E15 0%, #016630 100%);
+font-family: Inter;
+font-weight: 500;
+font-style: Medium;
+font-size: 18.2px;
+line-height: 28px;
+letter-spacing: 0px;
+color: #FFFFFF;
+ text-decoration: none;
+}
 
 
 /* ===== Responsive ===== */
